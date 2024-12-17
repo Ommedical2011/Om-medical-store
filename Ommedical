@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Medical Store</title>
+    <style>
+        /* General Styles */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+        header, footer { background-color: #00796B; color: #fff; text-align: center; padding: 1rem; }
+        nav { background-color: #004D40; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-size: 1rem; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 2rem; max-width: 1100px; margin: auto; }
+        h2 { color: #00796B; }
+        .button { display: inline-block; padding: 0.5rem 1rem; background-color: #004D40; color: #fff; text-decoration: none; border-radius: 5px; margin: 1rem 0; }
+        .button:hover { background-color: #00796B; }
+        footer { position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Om Medical Store</h1>
+        <p>Your Trusted Wholesale Medicine Supplier</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#billing">Billing</a>
+        <a href="#login">Login</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Om Medical Store</h2>
+        <p>We provide high-quality medicines at wholesale prices to support businesses and individuals. Explore our services, efficient billing system, and account management tools.</p>
+        <a href="#billing" class="button">Learn More</a>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Om Medical Store has been a trusted supplier of wholesale medicines, providing efficient and reliable services to clients across the region. Our platform helps businesses manage inventory, billing, and accounts seamlessly.</p>
+    </section>
+
+    <!-- Billing Section -->
+    <section id="billing">
+        <h2>Billing & KhataBook</h2>
+        <p>Our platform simplifies billing and transaction management with KhataBook-like features:</p>
+        <ul>
+            <li>Track bills and outstanding payments</li>
+            <li>Generate downloadable invoices</li>
+            <li>Organize transaction history efficiently</li>
+        </ul>
+        <a href="#" class="button">Access Billing System</a>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h2>Login Panels</h2>
+        <p>Login to access your account:</p>
+        <a href="#" class="button">Admin Login</a>
+        <a href="#" class="button">Staff Login</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> XYZ Road, Your City, India</p>
+        <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+        <p><strong>Email:</strong> ommedicalstore@email.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Om Medical Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
